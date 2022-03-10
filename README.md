@@ -1,4 +1,4 @@
-# HRV time series artifact correction
+# HRV time series artifact correction [![View HRV artifact correction on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/107779-hrv-artifact-correction)
 
 Heart rate variability (HRV) is a standard metric for assessing autonomic nervous system function, psychophysiological stress, and exercise intensity and recovery. Extra, missing, or misaligned beat detections in HRV measurements can cause severe distortion in HRV analysis. 
 
@@ -8,7 +8,7 @@ This repository contains MATLAB code for HRV time series artifact correction bas
 ## Usage/Examples
 The function ```fixpeaks()``` has been provided to perform peak correction directly on data stored in MATLAB. The function can be used as follows:
 
-```
+```matlab
 % Load your file containing indices of detected R waves, for example 
 % peak.txt or use your variable that contains them
 load peaks.txt
